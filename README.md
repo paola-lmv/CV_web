@@ -1,2 +1,2 @@
 # CV_web
-trying git in class
+paola 2024

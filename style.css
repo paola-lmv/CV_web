@@ -1,0 +1,172 @@
+
+/* container border  */
+div.solid {
+    margin:  70px 7% 7% ;
+    border-style: solid; 
+    border-color:#cac9c9; 
+    border-width: 2px;
+    padding-bottom: 50px;
+}
+/* title */
+#nom{
+    text-align: center;
+    font-family: Varela Round,arial,sans-serif;
+    font-size: 27px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none ;
+    color:black;
+}
+/* navbar */
+#nav{
+    flex-direction: row ;
+    justify-content: center ;
+}
+.nav-link.active{
+    color: #333 !important;
+    text-align: center;
+}
+.nav-link{
+    text-align: center;
+    color:#a4a5a4 !important;
+    font-family: Varela Round,arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.6em;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-style: normal
+}
+.barre{
+    border-top-style: solid; 
+    border-color:#cac9c9; 
+    margin-top:20px !important;
+    border-width: 2px;
+  }
+/* contain  */
+#coprs-text{
+    justify-content: center;
+}
+p{
+    font-family: Georgia,serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.8em;
+    font-size: 13px;
+    text-transform: none;
+    text-decoration: none;
+    color:rgb(82, 82, 82);
+}
+.paragraph{
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* end of page  */
+#separateur_fin_de_page{
+    border-top-style: solid; 
+    border-color:#cac9c9; 
+    border-width: 2px;
+    text-align: right;
+} 
+i{
+    color:black;
+    size: 20px;
+}
+#contact_info{
+    text-align: left;
+}
+
+#description{
+    text-align: center;
+}
+/* -------------each page ---------------- */
+/* index */
+
+#image_lucie2{
+    margin-right: 25px; /* Espace entre l'image et le texte */
+    float: left;
+    width: 50%; /* Image will scale down proportionally to fit the container */
+    height: auto; /* Maintains the image's aspect ratio */
+    max-width: 100%; /* Ensures the image doesn't stretch larger than its original size */
+
+}
+
+/* hobbies */
+.container-fluid.row.image{
+    justify-content: space-around;
+}
+.card{
+    border:solid !important;
+    border-color: rgb(105, 105, 105) !important;
+    border-width: 1px !important;
+    padding: 0% !important;
+    border-radius:4px !important;
+
+}
+.card-img-overlay{
+    text-align: right;
+    margin-top: 120%;
+    color:black;
+}
+.overlay{
+    color:white;
+}
+.overlay_paysage{
+    margin-top: 50%!important;
+}
+
+/* contact */
+#text_contact{
+    font-size: 18px;
+}
+/* cv */
+.titre1{
+    font-family: Varela Round,arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+    color:rgb(59, 59, 59);
+}
+.titre2{
+    font-family: Varela Round,arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-style: normal;
+    line-height: 1.8em;
+    text-transform: none;
+    text-decoration: none;
+    color:rgb(59, 59, 59);
+}
+.separateur{
+    border-top-style: solid; 
+    border-color:#cac9c9; 
+    border-width: 2px;
+}
+#ouvrière{
+    clip-path: inset(50px 0px 0px 0px);
+}
+.lien{
+    color: black !important;
+    text-decoration: none;
+}
+.image_cv{
+    
+    text-align: center;
+}
+.text_description{
+    margin:  60% 0% 0% 0% 0%  ;
+}
+.responsive-image {
+    width: 100%; /* Image will scale down proportionally to fit the container */
+    height: auto; /* Maintains the image's aspect ratio */
+    max-width: 100%; /* Ensures the image doesn't stretch larger than its original size */
+  }
