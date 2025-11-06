@@ -48,7 +48,7 @@
   </header>
 
   <!-- PDF intégré -->
-  <iframe id="pdfFrame" src="CV_Paola_Last_VE.pdf" title="CV de Paola Le Morvan"></iframe>
+  <iframe id="pdfFrame" src="CV_Paola_EU_VF.pdf" title="CV de Paola Le Morvan"></iframe>
 
   <footer>
     <p>© 2025 – Paola Le Morvan | 
@@ -62,13 +62,13 @@
     const btnEn = document.getElementById('btnEn');
 
     btnFr.addEventListener('click', () => {
-      frame.src = 'CV_Paola_Last_FR.pdf'; // ton CV en français
+      frame.src = 'CV_Paola_EU_VF.pdf'; // ton CV en français
       btnFr.classList.replace('btn-outline-light', 'btn-light');
       btnEn.classList.replace('btn-light', 'btn-outline-light');
     });
 
     btnEn.addEventListener('click', () => {
-      frame.src = 'CV_Paola_Last_VE.pdf'; // ton CV en anglais
+      frame.src = 'CV_Paola_EU_VE.pdf'; // ton CV en anglais
       btnEn.classList.replace('btn-outline-light', 'btn-light');
       btnFr.classList.replace('btn-light', 'btn-outline-light');
     });
