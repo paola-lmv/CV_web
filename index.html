@@ -30,15 +30,49 @@
       background-color: #f1f1f1;
       font-size: 0.9rem;
     }
+    .btn-switch {
+      margin-top: 15px;
+    }
   </style>
 </head>
 <body>
+
+  <header>
+    <h1>Paola Le Morvan</h1>
+    <h5>Engineering & Climate Finance Student</h5>
+    <!-- Bouton de changement de langue -->
+    <div class="btn-switch">
+      <button id="btnFr" class="btn btn-light btn-sm me-2">🇫🇷 CV Français</button>
+      <button id="btnEn" class="btn btn-outline-light btn-sm">🇬🇧 CV Anglais</button>
+    </div>
+  </header>
+
   <!-- PDF intégré -->
-  <iframe src="CV_Paola_Last_VE.pdf" title="CV de Paola Le Morvan"></iframe>
+  <iframe id="pdfFrame" src="CV_Paola_Last_VE.pdf" title="CV de Paola Le Morvan"></iframe>
 
   <footer>
-    <p>© 2025 – Paola Le Morvan | <a href="mailto:paola.lemorvan@gmail.com">paola.lemorvan@gmail.com</a></p>
+    <p>© 2025 – Paola Le Morvan | 
+      <a href="mailto:paola.lemorvan@gmail.com">paola.lemorvan@gmail.com</a>
+    </p>
   </footer>
+
+  <script>
+    const frame = document.getElementById('pdfFrame');
+    const btnFr = document.getElementById('btnFr');
+    const btnEn = document.getElementById('btnEn');
+
+    btnFr.addEventListener('click', () => {
+      frame.src = 'CV_Paola_Last_FR.pdf'; // ton CV en français
+      btnFr.classList.replace('btn-outline-light', 'btn-light');
+      btnEn.classList.replace('btn-light', 'btn-outline-light');
+    });
+
+    btnEn.addEventListener('click', () => {
+      frame.src = 'CV_Paola_Last_VE.pdf'; // ton CV en anglais
+      btnEn.classList.replace('btn-outline-light', 'btn-light');
+      btnFr.classList.replace('btn-light', 'btn-outline-light');
+    });
+  </script>
 
 </body>
 </html>
