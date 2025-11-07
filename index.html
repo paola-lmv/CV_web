@@ -1,62 +1,94 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>CV – Paola Le Morvan</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" crossorigin="anonymous">
-  <style>
-    html, body {
-      height: 100%;
-      margin: 0;
-      background-color: #f8f9fa;
-      font-family: Arial, sans-serif;
-    }
-    header {
-      text-align: center;
-      padding: 20px 0;
-      background-color: #003366;
-      color: white;
-    }
-    iframe {
-      width: 100%;
-      height: 90vh;
-      border: none;
-    }
-    footer {
-      text-align: center;
-      padding: 10px;
-      background-color: #f1f1f1;
-      font-size: 0.9rem;
-    }
-    .btn-switch {
-      margin-top: 15px;
-    }
-  </style>
-</head>
-<body>
+    <title> index.html</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
-  <header>
-    <h1>Paola Le Morvan</h1>
-    <h5>Engineering & Climate Finance Student</h5>
+  </head>
+<body>
+<div class="solid ">
+   <header>
+    <br><br><br><br>
+    <a href="index.html" id="nom"> 
+        <h1 > Paola LE MORVAN</h1>
+    </a><br>
+
+    <ul class="nav nav-underline" >
+        <div class="container-fluid row" id="nav">
+                <div class="col-12 col-xs-0 col-sm-0 col-md-1 col-lg-1 col-xl-1 barre" id="gauche"><li class="nav-item">
+                  </li></div>
+                <div class="col-12 col-xs-12 col-sm-6 col-md-2 col-lg-2 col-xl-2"><li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html"> CV</a>
+                  </li></div>
+                  <div class="col-12 col-xs-12 col-sm-6 col-md-1 col-lg-2 col-xl-2"><li class="nav-item">
+                    <a class="nav-link" href="introduction.html">About Me</a> 
+                  </li></div>
+                <div class="col-12 col-xs-12 col-sm-6 col-md-1 col-lg-2 col-xl-2"><li class="nav-item">
+                    <a class="nav-link" href="cv.html">My Journey</a> 
+                  </li></div>
+                  <div class="col-12 col-xs-12 col-sm-6 col-md-2 col-lg-2 col-xl-2"><li class="nav-item">
+                    <a class="nav-link" href="hobbies.html">Hobbies</a> 
+                  </li></div>
+                  <div class="col-12 col-xs-12 col-sm-6 col-md-3 col-lg-2 col-xl-2"><li class="nav-item">
+                    <a class="nav-link" href="contact.html">Get in Touch </a>
+                  </li></div>
+                  <div class="col-12 col-xs-0 col-sm-0 col-md-1 col-lg-1 col-xl-1 barre" id="droite"><li class="nav-item">
+                </li></div>           
+        </div>
+      </ul>
+    </header>
+    <div class="container-fluid col-12 col-xs-12 col-sm-11 col-md-10 col-lg-9 col-xl-8" id="corp-text">
+     <br><br>
+      <div class="container-fluid">        
+        <img id="image_lucie2"  src="Paola CV.png" />
+
+      <h2 class="titre1"> A Closer Look at My CV </h2>
+    <p class="paragraph"> My name is Paola Le Morvan, and I am currently pursuing a Master’s degree in Climate Change, Finance and Management at Imperial College Business School. I created this space to share my background, experiences, and interests in a more personal and informal way. </p>   
+    <p class="paragraph">Passionate about environmental issues, science, and strategic thinking, I’m eager to contribute to impactful projects that support the transition to a more sustainable economy. On this site, you’ll find my CV, academic and professional experiences, as well as some personal projects and hobbies that reflect who I am. </p>   
+    <p class="paragraph">Feel free to reach out if you’d like to connect! </p>   
+
     <!-- Bouton de changement de langue -->
     <div class="btn-switch">
-      <button id="btnFr" class="btn btn-light btn-sm me-2">🇫🇷 CV Français</button>
-      <button id="btnEn" class="btn btn-outline-light btn-sm">🇬🇧 CV Anglais</button>
+      <button id="btnFr" class="btn btn-light btn-sm me-2">CV Français</button>
+      <button id="btnEn" class="btn btn-outline-light btn-sm">CV English</button>
     </div>
-  </header>
-
-  <!-- PDF intégré -->
-  <iframe id="pdfFrame" src="CV_Paola_EU_VF.pdf" title="CV de Paola Le Morvan"></iframe>
+    <!-- PDF intégré -->
+    <iframe id="pdfFrame" src="CV_Paola_EU_VF.pdf" title="CV de Paola Le Morvan"></iframe>
+</div>
 
   <footer>
-    <p>© 2025 – Paola Le Morvan | 
-      <a href="mailto:paola.lemorvan@gmail.com">paola.lemorvan@gmail.com</a>
-    </p>
+    <div class="bas de page">
+      <div  id="separateur_fin_de_page"/>
+      <br>
+      <div class="container-fluid row">
+        <div class="col-4">
+          <h6 id="contact_info"> My Contact Info:</h6>
+        </div>
+        <div class="col-8 ">
+          <p>   
+            <i class="fas fa-at"></i> : paola.lemorvan@gmail.com             
+            <i class="fas fa-phone"></i> :+33 7 51 02 94 30
+          </p> 
+          <a href="https://www.facebook.com/profile.php?id=100089609434408"></a><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/paola.lmv/"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/paola-le-morvan-65aba624b/"><i class="fab fa-linkedin-in"></i></a>  
+            </div>    
+        </div>
+      </div>
   </footer>
-
-  <script>
+</div>  
+</div>
+<small>
+  <p>Copyright © 2024 This site was entirely made by Paola Le Morvan. All Rights Reserved.
+    <a href="mailto:paola.lemorvan@gmail.com">paola.lemorvan@gmail.com</a>
+</p>
+  
+</small>
+</body>
+<script>
     const frame = document.getElementById('pdfFrame');
     const btnFr = document.getElementById('btnFr');
     const btnEn = document.getElementById('btnEn');
@@ -74,5 +106,5 @@
     });
   </script>
 
-</body>
+
 </html>

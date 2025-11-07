@@ -87,7 +87,39 @@ i{
 }
 /* -------------each page ---------------- */
 /* index */
+/* Boutons centrés et harmonisés avec le style du site */
+.btn-switch {
+    text-align: center;         /* centre les boutons */
+    margin: 20px 0;             /* espace au-dessus et en dessous */
+}
 
+.btn-switch button {
+    font-family: Varela Round, arial, sans-serif;  /* même police que le reste */
+    font-size: 16px;            /* taille similaire aux autres textes */
+    font-weight: 400;
+    color: #333;                /* couleur du texte */
+    background-color: #f8f8f8; /* couleur sobre, dans le style du site */
+    border: 2px solid #cac9c9; /* bordure comme div.solid */
+    border-radius: 6px;         /* coins arrondis */
+    padding: 10px 20px;         /* padding suffisant */
+    margin: 5px;                /* espace entre les boutons */
+    cursor: pointer;
+    box-shadow: none;           /* enlever ombre si trop flashy */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-switch button:hover {
+    background-color: #e0e0e0; /* léger changement au hover */
+    transform: scale(1.05);    /* léger zoom au hover */
+}
+
+#pdfFrame {
+    display: block;           /* pour centrer avec margin auto */
+    margin: 20px auto;        /* espace en haut et en bas, centré horizontalement */
+    width: 80%;               /* largeur de l’iframe */
+    height: 90vh;             /* hauteur 90% de la fenêtre */
+    border: 1px solid #ccc;   /* optionnel : une bordure */
+  }
 #image_lucie2{
     margin-right: 25px; /* Espace entre l'image et le texte */
     float: left;
